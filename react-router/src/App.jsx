@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-    <h1>hello</h1>
+    <h1 className='h-80 w-100 bg-black text-white'>hello</h1>
     {/* anchor tag refresh */}
    
 

@@ -9,9 +9,11 @@ export const Route = createRootRoute({
 
 function RootComponent() {
   return (
-    <React.Fragment>
+    <React.Fragment  >
+      <div className="h-80 w-100 bg-black text-white text-center">
+
       <div>Hello "__root"!</div>
-      <nav className='flex gap '>
+      <nav className='flex gap-5 mt-3 '>
       <Link to="/">index</Link>
       <Link to="/Home">Home</Link>
       <Link to="/about">About</Link>
@@ -19,6 +21,7 @@ function RootComponent() {
       </nav>
       <Outlet />
       <TanStackRouterDevtools/>
+      </div>
     </React.Fragment>
   )
 }
